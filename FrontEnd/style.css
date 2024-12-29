@@ -1,0 +1,102 @@
+body {
+    background-color: gray;
+    margin: 20px    ;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+.box1:hover {
+    background-color: rgb(2, 57, 2);
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.box2:hover {
+    background-color: rgb(0, 0, 83);
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
+
+.box3:hover {
+    background-color: rgb(92, 60, 0);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 5px 5px black;
+}
+
+form input {
+    justify-content: center;
+    display: flex;
+    justify-items: right;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+textarea {
+    display: flex;
+    width: 350px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 54);
+    cursor: pointer;
+}
