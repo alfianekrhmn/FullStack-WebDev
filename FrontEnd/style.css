@@ -72,7 +72,6 @@ form {
 form input {
     justify-content: center;
     display: flex;
-    justify-items: right;
     margin-bottom: 10px;
     width: 350px;
 }
