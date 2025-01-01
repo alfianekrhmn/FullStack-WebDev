@@ -99,3 +99,8 @@ button:hover {
     background-color: rgb(0, 0, 54);
     cursor: pointer;
 }
+
+#messeges {
+    display: none;
+    color: aliceblue;
+}
