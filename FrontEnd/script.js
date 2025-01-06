@@ -42,3 +42,11 @@ function click() {
     console.log(text)
     alert(text)
 }
+
+
+document.getElementById("aaa").addEventListener("click", aaa)
+
+const aaa = () => {
+    let tambahkanTugas = document.getElementById("tambahkanTugas").value
+    console.log(tambahkanTugas)
+}
